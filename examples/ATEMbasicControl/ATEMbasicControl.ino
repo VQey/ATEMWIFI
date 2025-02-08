@@ -1,9 +1,9 @@
 /*****************
- * Example: ATEM Basic Control
+ * Example: ATEM Basic Control for esp8266
  * Connects to the Atem Switcher and outputs changes to Preview and Program on the Serial monitor (at 115200 baud)
- * Uses digital inputs 2 and 3 (active High) to select input 1 and 2 on Preview Bus
- * Uses digital input 7 (active High) to "Cut" (Preview and Program swaps)
- * Uses digital outputs 4 and 5 for Tally LEDs for input 1 and 2 (Active LOW)
+ * Uses digital inputs 5 and 4 (active Low) to select input 1 and 2 on Preview Bus
+ * Uses digital input 2 (active Low) to "Cut" (Preview and Program swaps)
+ * Uses digital outputs 12 and 14 for Tally LEDs for input 1 and 2 (Active HIGH)
  */
 /*****************
  * TO MAKE THIS EXAMPLE WORK:
