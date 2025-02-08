@@ -1,0 +1,31 @@
+This library works with ESP8266 and ESP-32(untested). Based on the SKAARHOJ Library for ATEM Switcher:
+https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoLibs/ATEM
+Dont forget to install ESP8266 Core Library https://github.com/esp8266/Arduino.
+Theexample are for Tally Systembut you can create fully working ATEM Wireless Controller.
+	
+This library for Arduino is intended to provide functions for connecting to and controlling ATEM video switchers by WiFi/WLAN using ESP8266 from Blackmagic Design (http://blackmagic-design.com/products/atem/).
+
+Now, with this arduino library, you can develop your own custom Wireless Controller for ATEM Switcher!
+
+Tutorial:
+Check the example command assignment below:
+To control:
+	void changeProgramInput(inputNumber); - Program Buttons
+	void changePreviewInput(inputNumber); - Preview Buttons
+	void doCut() - CUT Button
+	void doAuto() - AUTO Button
+
+	void fadeToBlackActivate() - FTB Button
+	void changeTransitionPosition(word value) = Set T-Bar Position (0 - 1000)
+	void changeTransitionPositionDone() = Execute when the T-Bar reach 1000
+	
+	To get Status (Control LEDs:
+	uint16_t getProgramInput() //LED Program - RED
+	uint16_t getPreviewInput() //LED Program - RED
+	boolean getProgramTally(uint8_t inputNumber);//Tally Program - RED
+	boolean getPreviewTally(uint8_t inputNumber) //Tally Preview - Green
+    boolean getFadeToBlackState() //Tally Preview - Green
+
+GPL licensed:
+The library is licensed under GNU GPL v3. It allows you to use the library for any project, even commercial ones, as long as you keep the code using the library open - and deliver a copy to your client. In other words, even though you might deliver a black box hardware device, you still must give your client a copy of the Arduino sketch you have uploaded to the board. And how knows; either they will improve your product, maybe do nothing at all - or mess it up so you can sell some support hours. :-)
+
