@@ -1,8 +1,12 @@
 # ATEMWIFI
-This library works with ESP8266 and ESP-32(untested). Based on the SKAARHOJ Library for ATEM Switcher:
+This library works with ESP8266 and ESP-32(untested). 
+
+Based on the SKAARHOJ Library for ATEM Switcher:
 https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoLibs/ATEM
+
 Dont forget to install ESP8266 Core Library https://github.com/esp8266/Arduino.
-Theexample are for Tally Systembut you can create fully working ATEM Wireless Controller.
+
+Theexample are for Tally System but you can create fully working ATEM Wireless Controller.
 	
 This library for Arduino is intended to provide functions for connecting to and controlling ATEM video switchers by WiFi/WLAN using ESP8266 from Blackmagic Design (http://blackmagic-design.com/products/atem/).
 
