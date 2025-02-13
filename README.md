@@ -6,7 +6,7 @@ https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoL
 
 Dont forget to install ESP8266 Core Library https://github.com/esp8266/Arduino.
 
-Theexample are for Tally System but you can create fully working ATEM Wireless Controller.
+The example are for Tally System but you can create fully working ATEM Wireless Controller.
 	
 This library for Arduino is intended to provide functions for connecting to and controlling ATEM video switchers by WiFi/WLAN using ESP8266 from Blackmagic Design (http://blackmagic-design.com/products/atem/).
 
@@ -25,10 +25,10 @@ Check the example command assignment below:
 	void changeTransitionPositionDone() = Execute when the T-Bar reach 1000
 	
 	uint16_t getProgramInput() //LED Program - RED
-	uint16_t getPreviewInput() //LED Program - RED
+	uint16_t getPreviewInput() //LED Program - GREEN
 	boolean getProgramTally(uint8_t inputNumber);//Tally Program - RED
 	boolean getPreviewTally(uint8_t inputNumber) //Tally Preview - Green
-    boolean getFadeToBlackState() //Tally Preview - Green
+ boolean getFadeToBlackState() //Tally Preview - Green
 
 GPL licensed:
 The library is licensed under GNU GPL v3. It allows you to use the library for any project, even commercial ones, as long as you keep the code using the library open - and deliver a copy to your client. In other words, even though you might deliver a black box hardware device, you still must give your client a copy of the Arduino sketch you have uploaded to the board. And how knows; either they will improve your product, maybe do nothing at all - or mess it up so you can sell some support hours. :-)
