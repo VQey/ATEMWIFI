@@ -15,8 +15,8 @@
  */
 
 #include <ESP8266WiFi.h>
-const char* ssid = "SmartBridge";
-const char* password = "tally12345";
+const char* ssid = "YourWifiSSID";
+const char* password = "yourWifiPassword";
 
 // Include ATEM library and make an instance:
 #include <ATEMWIFI.h>
