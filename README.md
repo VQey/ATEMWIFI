@@ -28,7 +28,7 @@ Check the example command assignment below:
 	uint16_t getPreviewInput() //LED Program - GREEN
 	boolean getProgramTally(uint8_t inputNumber);//Tally Program - RED
 	boolean getPreviewTally(uint8_t inputNumber) //Tally Preview - Green
- boolean getFadeToBlackState() //Tally Preview - Green
+ 	
 
 GPL licensed:
 The library is licensed under GNU GPL v3. It allows you to use the library for any project, even commercial ones, as long as you keep the code using the library open - and deliver a copy to your client. In other words, even though you might deliver a black box hardware device, you still must give your client a copy of the Arduino sketch you have uploaded to the board. And how knows; either they will improve your product, maybe do nothing at all - or mess it up so you can sell some support hours. :-)
